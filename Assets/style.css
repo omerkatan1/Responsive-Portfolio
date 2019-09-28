@@ -1,0 +1,112 @@
+body {
+    background-image: url(../Assets/Images/email-pattern/email-pattern.png)
+}
+
+
+/* Everything to do with the nav bar */
+
+#headerBar {
+    background-color: #ffffff;
+    height: 100px;
+    margin-bottom: 35px;
+    border-bottom: 3px solid #cccccc;
+}
+
+#headerNameBox {
+    height: 100px;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#headerNameText {
+    color: white;
+    font-size: 35px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+
+#linkSection {
+    margin-top: 35px;
+    height: 100%;
+}
+#aboutLink {
+    height: 30px;
+    font-size: 20px;
+    color: gray;
+    border-right: 2px solid #cccccc;
+}
+#portfolioLink {
+    height: 30px;
+    font-size: 20px;
+    color: gray;
+    border-right: 2px solid #cccccc;
+}
+#contactLink {
+    height: 30px;
+    font-size: 20px;
+    color: gray;
+}
+
+/* large display */
+@media screen and (min-width: 992px) {
+    #headerNameBox {
+        margin-left: 50px;
+    }
+}
+
+/* Extra Small Display */
+@media screen and (max-width: 576px) {
+    #headerBar {
+        height: 180px;
+    }
+    #linkSection {
+        margin-top: 25px;
+    }
+}
+
+
+
+/* Everything to do with the page content box */
+
+#pageContentBox {
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+    /* Header */
+    #pageContentBox-header {
+        height: 100px;
+        border-bottom: 3px solid #dddddd;
+        margin-bottom: 30px;
+    }
+    #pageContentBox-titleText {
+        margin-top: 30px;
+        color: #4aaaa5;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        font-size: 35px;
+    }
+
+
+    /* box content (FOR ABOUT ME) */
+    #profilePic {
+        height: 250px;
+        width: 190px;
+        float: left;
+    }
+
+/* large Screen */
+@media screen and (min-width: 992px) {
+    #pageContentBox {
+        margin-left: 50px;
+    }
+}
+
+/* Small Screen */
+@media screen and (min-width: 576px) {
+    #pageContentBox {
+        margin-top: 100px;
+    }
+}
