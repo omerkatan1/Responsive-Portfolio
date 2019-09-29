@@ -79,9 +79,24 @@ body {
         width: 220px;
         float: left;
     }
-
-    #pageContentBox-content {
-
+    .imgResize {
+        margin-bottom: 25px;
+        height: 200px;
+        width: 220px;
+    }
+    #portfolioImgBar {
+        position: relative;
+        top: -85px;
+        background-color: #4aaaa5;
+        width: 220px;
+        height: 20%;
+    }
+    .portfolioImgText {
+        text-align: center;
+        padding-top: 8%;
+        color: white;
+        font-size: 15px;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
     }
 
 
@@ -103,6 +118,22 @@ body {
 
 /* medium screens */
 @media screen and (max-width: 992px) {
+    #pageContentBox-content {
+        text-align: center;
+        
+    }
+    .imgResize {
+        height: 250px;
+        width: 280px;
+    }
+    .portfolioImgText {
+        font-size: 17px;
+    }
+    #portfolioImgBar {
+        display: inline-block;
+        top: -100px;
+        width: 280px;
+    }
     #headerBar {
         padding-left: 20px;
         padding-right: 20px;
@@ -115,6 +146,18 @@ body {
 
 /* small Screen */
 @media screen and (max-width: 768px) {
+    #portfolioImgBar {
+        top: -140px;
+        width: 400px;
+    }
+    .portfolioImgText {
+        padding-top: 7.5%;
+        font-size: 20px;
+    }
+    .imgResize {
+        height: 350px;
+        width: 400px;
+    }
     #headerBar {
         height: 140px;
         padding: 0;
