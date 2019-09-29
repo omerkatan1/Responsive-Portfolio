@@ -8,85 +8,82 @@ body {
 #headerBar {
     background-color: #ffffff;
     height: 100px;
-    margin-bottom: 35px;
-    border-bottom: 3px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
 }
 
 #headerNameBox {
     height: 100px;
     background-color: #4aaaa5;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 30px;
 }
 
 #headerNameText {
+    font-weight: bold;
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 
 #linkSection {
     text-align: center;
-    margin-top: 35px;
+    margin-top: 37px;
     height: 100%;
 }
 #aboutLink {
-    height: 30px;
-    font-size: 20px;
-    color: gray;
-    border-right: 2px solid #cccccc;
+    height: 28px;
+    font-size: 18px;
+    color: rgb(170, 170, 170);
+    border-right: 2px solid #dfdfdf;
 }
 #portfolioLink {
-    height: 30px;
-    font-size: 20px;
-    color: gray;
-    border-right: 2px solid #cccccc;
+    height: 28px;
+    font-size: 18px;
+    color: rgb(170, 170, 170);
+    border-right: 2px solid #dfdfdf;
 }
 #contactLink {
-    height: 30px;
-    font-size: 20px;
-    color: gray;
+    height: 28px;
+    font-size: 18px;
+    color: rgb(170, 170, 170);
 }
 
 /* large screens */
 @media screen and (max-width: 1200px) {
-
 }
 
 /* medium screens */
 @media screen and (max-width: 992px) {
-
+    #headerBar {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
 }
 
 /* small Screen */
 @media screen and (max-width: 796px) {
     #headerBar {
+        padding: 0;
         height: 180px;
-        border-bottom: none;
     }
     #linkSection {
         margin-top: 25px;
     }
 }
 
-
-/* Extra Small Display */
-@media screen and (max-width: 576px) {
+/* extra Small Screen */
+@media screen and(max-width: 576px) {
     #headerBar {
-        height: 180px;
-        border-bottom: none;
-    }
-    #linkSection {
-        margin-top: 25px;
+
     }
 }
-
 
 
 /* Everything to do with the page content box */
 
 #pageContentBox {
+    margin-top: 30px;
     background-color: white;
     padding-left: 50px;
     padding-right: 50px;
@@ -100,10 +97,10 @@ body {
         margin-bottom: 30px;
     }
     #pageContentBox-titleText {
-        margin-top: 30px;
+        margin-top: 35px;
         color: #4aaaa5;
         font-family: 'Georgia', Times, 'Times New Roman', serif;
-        font-size: 35px;
+        font-size: 30px;
     }
 
 
@@ -114,16 +111,44 @@ body {
         float: left;
     }
 
-/* large Screen */
-/* @media screen and (min-width: 992px) {
-    #pageContentBox {
-        margin-left: 50px;
-    }
-} */
 
-/* Small Screen */
-/* @media screen and (min-width: 576px) {
-    #pageContentBox {
-        margin-top: 100px;
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+/* large screens */
+@media screen and (max-width: 1200px) {
+}
+
+/* medium screens */
+@media screen and (max-width: 992px) {
+}
+
+/* small Screen */
+@media screen and (max-width: 768px) {
+    #headerBar {
+        height: 140px;
     }
-} */
+    #headerNameBox {
+        height: 80px;
+        padding-top:25px;
+    }
+    #linkSection {
+        margin-top: 15px;
+    }
+    #pageContentBox {
+        margin: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    #profilePic {
+        height: 400px;
+        width: 300px;
+        margin-left: 55%;
+        margin-bottom: 20px;
+    }
+}
