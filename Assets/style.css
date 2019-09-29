@@ -1,5 +1,5 @@
 body {
-    background-image: url(../Assets/Images/email-pattern/email-pattern.png)
+    background-image: url(../Assets/Images/email-pattern/email-pattern.png);
 }
 
 
@@ -12,7 +12,7 @@ body {
 }
 
 #headerNameBox {
-    height: 100px;
+    height: 98px;
     background-color: #4aaaa5;
     text-align: center;
     padding-top: 30px;
@@ -25,58 +25,27 @@ body {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-
 #linkSection {
     text-align: center;
     margin-top: 37px;
     height: 100%;
 }
 #aboutLink {
-    height: 28px;
-    font-size: 18px;
+    height: 25px;
+    font-size: 17px;
     color: rgb(170, 170, 170);
-    border-right: 2px solid #dfdfdf;
+    border-right: 2px solid #ececec;
 }
 #portfolioLink {
-    height: 28px;
-    font-size: 18px;
+    height: 25px;
+    font-size: 17px;
     color: rgb(170, 170, 170);
-    border-right: 2px solid #dfdfdf;
+    border-right: 2px solid #ececec;
 }
 #contactLink {
-    height: 28px;
-    font-size: 18px;
+    height: 25px;
+    font-size: 17px;
     color: rgb(170, 170, 170);
-}
-
-/* large screens */
-@media screen and (max-width: 1200px) {
-}
-
-/* medium screens */
-@media screen and (max-width: 992px) {
-    #headerBar {
-        padding-right: 25px;
-        padding-left: 25px;
-    }
-}
-
-/* small Screen */
-@media screen and (max-width: 796px) {
-    #headerBar {
-        padding: 0;
-        height: 180px;
-    }
-    #linkSection {
-        margin-top: 25px;
-    }
-}
-
-/* extra Small Screen */
-@media screen and(max-width: 576px) {
-    #headerBar {
-
-    }
 }
 
 
@@ -106,14 +75,14 @@ body {
 
     /* box content (FOR ABOUT ME) */
     #profilePic {
-        height: 250px;
-        width: 190px;
+        height: 300px;
+        width: 220px;
         float: left;
     }
 
+    #pageContentBox-content {
 
-
-
+    }
 
 
 
@@ -122,16 +91,33 @@ body {
 
 /* large screens */
 @media screen and (max-width: 1200px) {
+    #headerBar {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #pageContentBox {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
 
 /* medium screens */
 @media screen and (max-width: 992px) {
+    #headerBar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #pageContentBox {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 /* small Screen */
 @media screen and (max-width: 768px) {
     #headerBar {
         height: 140px;
+        padding: 0;
     }
     #headerNameBox {
         height: 80px;
@@ -148,7 +134,6 @@ body {
     #profilePic {
         height: 400px;
         width: 300px;
-        margin-left: 55%;
         margin-bottom: 20px;
     }
 }
