@@ -86,6 +86,21 @@
                     <!-- All the content inside the box -->
                     <div id="pageContentBox-content" class="col-12">
 
+                        <!--Stores the user input into a certain file-->
+                    <form action="/action_page.php">
+                        <h3 class="formName">Name</h3>
+                        <input class="inputStyle" type="text" name="Name" placeholder=" Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder=' Your Name'">
+                        <br><br><br>
+
+                        <h3 class="formName">Email</h3>
+                        <input class="inputStyle" type="text" name="Email" placeholder=" youremail@mail.com" onfocus="this.placeholder = ''" onblur="this.placeholder = ' youremail@mail.com'">
+                        <br><br><br>
+
+                        <h3 class="formName">Message</h3>
+                        <textarea name="message"></textarea>
+                        <br><br><br>
+
+                        <input id="contactSubmit" type="submit">
 
 
                     </div>
